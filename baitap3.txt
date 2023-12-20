@@ -1,0 +1,13 @@
+File.gitignore
+what:
+Tập tin .gitignore: Là một tệp văn bản đặc biệt trong dự án Git, nó chứa danh sách các tệp
+và thư mục mà bạn muốn Git bỏ qua khi thực hiện các hoạt động như commit, push, hoặc pull.
+why:
+Loại bỏ tệp không cần thiết: Khi phát triển phần mềm, có nhiều tệp tạm thời, tạo ra
+từ quá trình build, IDE hoặc hệ thống, không cần thiết phải được theo dõi trong lịch sử Git. Việc đưa chúng vào .gitignore giúp cho kho lưu trữ sạch sẽ và dễ quản lý hơn.
+Bảo mật thông tin nhạy cảm: Đôi khi, có các tệp chứa thông tin nhạy cảm như khóa bí
+mật, thông tin cá nhân không nên được lưu trữ trong kho lưu trữ mã nguồn. .gitignore giúp loại bỏ những tệp như vậy khỏi việc commit và push lên kho lưu trữ.
+when:
+Khi bắt đầu dự án mới: Tạo tệp .gitignore từ đầu sẽ giúp bạn xác định ngay những tệp và thư mục nào không nên được theo dõi bởi Git từ giai đoạn ban đầu của dự án.
+Khi thêm các tệp không cần thiết sau khi dự án đã được bắt đầu: Khi bạn nhận ra có các tệp không cần thiết đã được thêm vào kho lưu trữ, bạn có thể cập nhật tệp
+    .gitignore để loại bỏ chúng khỏi việc theo dõi của Git.
