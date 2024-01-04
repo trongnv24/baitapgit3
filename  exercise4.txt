@@ -1,0 +1,29 @@
+Các project như thế nào thì cần dùng waterfall, và các waterfall nào thích hợp với project:
+-Waterfall thường phù hợp với các dự án có yêu cầu ổn định, không thay đổi nhanh chóng, và có thể được dự đoán trước từ đầu đến cuối
+-Dự án có yêu cầu cụ thể và không biến đổi: Khi yêu cầu dự án được định rõ từ đầu và không thay đổi đột ngột trong quá trình triển khai, Waterfall có thể áp dụng tốt.
+-Công trình xây dựng lớn: Trong xây dựng, các bước cần phải tuân theo một trình tự nhất định và không thể thay đổi dễ dàng. Ví dụ, việc xây dựng tòa nhà, cầu, hay các công trình công cộng.
+-Dự án với ngân sách và thời gian cố định: Khi có sẵn nguồn lực hạn chế và thời hạn cụ thể, Waterfall có thể giúp quản lý và dự đoán tốt hơn về tiến độ công việc.
+-Yêu cầu pháp lý và an ninh cao: Trong một số lĩnh vực như y tế, tài chính hay quân đội, việc tuân thủ các tiêu chuẩn an ninh, pháp lý đặt ra yêu cầu cụ thể và Waterfall giúp đảm bảo việc này được thực hiện theo trình tự rõ ràng.
+Lưu ý: Không phải mọi dự án project đều phù hợp với waterfall Các dự án mà yêu cầu thay đổi thường xuyên, cần sự linh hoạt trong việc thích ứng với phản hồi từ người dùng hoặc môi trường thị trường thay đổi thì không nên sử dụng waterfall
+Why??
+Waterfall không phù hợp cho các dự án yêu cầu thay đổi thường xuyên vì mô hình này yêu cầu các bước phải tuân theo một trình tự tuyến tính, khiến việc thích ứng với thay đổi trở nên khó khăn:
+- Khó thích ứng với thay đổi:
+ Waterfall giữ cho mỗi giai đoạn phải hoàn thành trước khi bước sang giai đoạn tiếp theo. Điều này làm cho việc thay đổi yêu cầu ở giai đoạn sau trở nên phức tạp và đắn đo.
+ Nếu có thay đổi trong yêu cầu từ khách hàng hoặc môi trường thị trường thay đổi, việc phải quay lại và thay đổi ở giai đoạn trước đó có thể làm mất thời gian và tăng chi phí.
+- Yêu cầu cần phản hồi nhanh:
+ Trong các dự án khi cần sự phản hồi nhanh từ người dùng, Waterfall có thể không linh hoạt đủ để điều chỉnh sản phẩm theo phản hồi thực tế.
+ Agile hay các phương pháp quản lý dự án linh hoạt hơn cung cấp khả năng thay đổi linh hoạt và định kỳ, giúp cải thiện sản phẩm theo phản hồi liên tục từ người dùng.
+- Rủi ro thất bại cao hơn:
+ Trong môi trường thị trường biến đổi nhanh, nếu sản phẩm không thể thích ứng với yêu cầu mới hoặc phản hồi từ người dùng, dự án sẽ có rủi ro thất bại cao hơn khi sử dụng Waterfall.
+- Tương tác ít với khách hàng:
+ Waterfall thường không tạo ra nhiều cơ hội tương tác với khách hàng trong quá trình phát triển. Điều này có thể dẫn đến việc sản phẩm không đáp ứng đúng nhu cầu của họ.
+ *Một số loại dự án phù hợp với phương pháp Waterfall:
+- Xây dựng công trình lớn: Trong ngành xây dựng, các dự án xây dựng công trình như tòa nhà, cầu, đường cao tốc thường áp dụng Waterfall. Các công việc phải tuân theo trình tự cụ thể và không thể thay đổi dễ dàng.
+- Phát triển phần mềm với yêu cầu ổn định: Trong trường hợp dự án phần mềm có yêu cầu rõ ràng, ít thay đổi và không cần phải thích ứng nhanh chóng với sự biến đổi, Waterfall có thể được sử dụng. Ví dụ như phát triển các hệ thống quản lý cơ sở dữ liệu, ứng dụng nội bộ trong doanh nghiệp với yêu cầu cụ thể.
+- Công nghệ và sản xuất sản phẩm vật lý: Trong một số trường hợp, Waterfall cũng có thể áp dụng trong quá trình sản xuất vật lý, nơi các bước sản xuất cần tuân theo trình tự cụ thể và không thể thay đổi dễ dàng.
+- Dự án với nguồn lực và thời gian cố định: Khi có sẵn nguồn lực và thời hạn cụ thể, Waterfall có thể giúp quản lý và dự đoán tốt hơn về tiến độ công việc.
+*Một số lĩnh vực cần sử dụng waterfall
+- Xây dựng và Kiến trúc: Trong ngành xây dựng, Waterfall thường được sử dụng cho các dự án xây dựng tòa nhà, cầu đường và các công trình công cộng khác, nơi các công việc phải tuân theo trình tự cụ thể và không thể thay đổi dễ dàng.
+- Phát triển Phần mềm: Trong môi trường phát triển phần mềm, Waterfall có thể áp dụng trong các dự án có yêu cầu cụ thể và ít thay đổi. Các hệ thống quản lý cơ sở dữ liệu, phần mềm quản lý doanh nghiệp có thể là ví dụ.
+- Sản xuất sản phẩm vật lý: Waterfall cũng có thể được sử dụng trong quá trình sản xuất sản phẩm vật lý, đặc biệt là các sản phẩm có quy trình sản xuất rõ ràng và không thay đổi nhanh chóng.
+- Quản lý Dự án lớn có yêu cầu cụ thể: Các dự án với quy mô lớn, có yêu cầu rõ ràng và không thay đổi quá nhiều cũng có thể áp dụng Waterfall để quản lý và tiến hành theo từng bước mạch lạc.
