@@ -1,0 +1,132 @@
+Vòng đời phát triển phần mềm
+*Các giai đoạn
+1.Requirement: Phân tích yêu cầu
+2.Anaylysis: Lập kế hoạch
+3.Design: Thiết kế phần mềm
+4.Implementation: Phát triển phần mềm
+5.Testing: Thử nghiệm
+6.Hand over: Triển khai
+7.Maintenance: Bảo trì & cập nhập
+
+6.1:Publish
+6.2:Measure: Đo đạc
+6.3.Learn
+
+Outsoucing: 7 bước đầu tiên
+-Nhận làm mà không phải của mình
+production: 3 bước cuối
+VD: Mình xây nhà có đất t làm tự thiết kế thì goju là production
+
+1.Requirment (*Cực kỳ quan trọng)
+-Participants:
++ Stackeholder(người quan tâm đến giá trị của sản phẩm) :
+Vd: customer.
++ Business analysts -BA (Phân tích nghiệp vụ): Viết document cho dự án, phân tích dự án này có những nghiệp vụ gì,..
++Project manager:Quan sát toàn bộ quá trình từ đầu đến cuối, dựa theo các yêu cầu đặt ra, PM sẽ bao quát dự án để sản phẩm làm ra đúng yêu cầu, thời hạn,..
++Technical Team: Có thể là các Dev, Architec họ sẽ cần hiểu để điều chỉnh thời gian nguồn lực cần cho dự án đó
++Quality assurance (QA): cần hiểu requirment để có chiến lược test, test dựa trên requirment
++Designer (UI/UX): UI-giao diện người dùng, UX- trải nghiệm người dùng
+	Lường trước những giao diện cần thiết.
+	Output: Requirment documentation
+2.Analysis
+	Input: Requirment documentation
+-Participants:
++BA (Business analysts):
++ PM (Project manager): Kiểm soát mọi thứ ở trong 1 khoảng thời gian nhất định
++System analysts/ Architects: lường trước các công nghệ ( Design patterns, db gì? Ngôn ngữ gì ? framework gì ? microservices hay không?  )
++QA : phân tích trước các test case
+	Output: Các biểu đồ: (ngôn ngữ UML thiết kế theo kiểu OOP)
+-	Use case
+-	Class
+-	Sequence
+-	Activity
+3.Design
+	Input: Các biểu đồ của bước trên
+- Participants:
++ UI/UX designer : thiết kế giao diện hệ thống
++SA: thiết kế kiến trúc hệ thống , structure, tech stack như thế nào ?, data flow, database design ?, tương tác với hệ thống khác như thế nào?
++PM
++High level design (xem nó chạy từ đâu đến đâu)
+	Output: bản mô tả hệ thống một cách chi tiết
+4.Implementation
+	Input: bản mô tả hệ thống chi tiết
+- Participants:
++PM: kiểm tra tiến độ
++Developer: Frontend -> source code
+•	Dùng analysis, design UI/UX
++Engineer: Backend ->source code
+•	Dùng analysis,system design
++Devops
+	Output: source code
+5.Test
+	Input: source code
+- Participants:
++QA,tester: Kiểm tra các tính năng đã được code có lỗi hay đáp ứng requirment hay không
+	Output:
+- manual test: file excel: Kết quả của từng test case
+- automation test: cypress, robot
+- api test: postman
+Kết quả test
+6.Hand over
+- Participants:
++Stake holder: Customer
++Traning staff
++PM
++QA: lượt test cuối cùng trước khi bàn giao
+	Output: document specialist: hướng dẫn người dùng, tài liệu hệ thống
+7.Maintenance
+-Lúc này lại quay lại trở về từ các bước đầu giống 1 vòng bên trên
+
+II. MÔ HÌNH THÁC NƯỚC ( WATERFALL)
+1.Mô hình thác nước là gì?
+-Mô hình Waterfall là một phương pháp quản lý dự án theo kiểu tuần tự, trong đó từng giai đoạn của quá trình phát triển phần mềm được thực hiện theo thứ tự cố định.
+-Các giai đoạn bao gồm: yêu cầu, thiết kế, triển khai, kiểm thử và bảo trì.
+- Mỗi giai đoạn phụ thuộc vào kết quả của giai đoạn trước đó và không thể bắt đầu cho đến khi giai đoạn trước hoàn thành.
+2.Áp dụng waterfall như thế nào?
+Mô hình Waterfall phù hợp cho các dự án có :
+- yêu cầu ổn định và rõ ràng từ đầu,
+- không có nhiều biến động trong quá trình phát triển
+ - khách hàng có thể định rõ yêu cầu từ đầu đến cuối dự án
+Các dự án có tính chất cố định, không cần sự linh hoạt trong việc thay đổi yêu cầu, và được yêu cầu tuân thủ các quy trình và tiêu chuẩn nghiêm ngặt cũng thích hợp với mô hình Waterfall.
+Tuy nhiên, mô hình này không phù hợp với các dự án có yêu cầu thay đổi thường xuyên hoặc yêu cầu sự linh hoạt trong quá trình phát triển.
+Nhược điểm của waterfall:
+- Phát hiện lỗi muộn
+- Khó khăn trong việc ước lượng thời gian và chi phí
+- Không linh hoạt
+- Khi có lỗi xảy ra nó sẽ quay trở lại bước đầu tiên (Lỗi hồi quy)
+-Một số dự án phù hợp sử dụng waterfall:
++ Dự án thi công xây dựng
++ Phần mềm quản lý doanh nghiệp
+ +Hệ thống quản lý khách hàng
+II. MÔ HÌNH AGILE
+1.Mô hình Agile là gì?
+- Là triết lý hành động theo các phương châm
+- Là tư duy : “Làm thế nào để nhanh chóng thích ứng/phản hồi với sự thay đổi”
+- Ra đời để giải quyết khó khăn của waterfall
+2. 4 tuyên ngôn của Agile
+1.	Cá nhân và sự tương tác > quy trình, công cụ
+2.	Phần mềm chạy tốt > tài liệu đầy đủ
+3.	Cộng tác với khách hàng > đàm phán hợp đồng
+4.	Phản hồi với sự thay đổi > bám vào kế hoạch
+3. 12 nguyên tắc của Agile
+1.	Ưu tiên cao nhất là làm hài lòng khách hàng thông qua việc bàn giao phần mềm/sản phẩm có giá trị trong thời gian sớm và liên tục.
+2.	Sẵn sàng cho những thay đổi - thậm chí những thay đổi này xuất hiện muộn. Quy trình Agile khai thác sự thay đổi này nhằm gia tăng tính cạnh tranh cho khách hàng.
+3.	Cung cấp phần mềm hoạt động được trong thời gian ngắn từ 1 vài tuần đến 1 vài tháng, càng ngắn càng được ưu tiên.
+4.	Người kinh doanh và đội ngũ phát triển phải làm việc cùng nhau mỗi ngày trong suốt dự án
+5.	Xây dựng dự án xung quanh những cá nhân có động lực. Cho họ môi trường làm việc thuận lợi và sự hỗ trợ cần thiết. Hãy có niềm tin rằng họ sẽ làm tốt công việc của mình.
+6.	Đối thoại trực tiếp mặt đối mặt là phương pháp hữu hiệu nhất trong việc truyền đạt thông tin.
+7.	Phần mềm chạy được là thước đo chính của tiến độ dự án.
+8.	Phát triển bền vững và duy trì việc phát triển liên tục.
+9.	Liên tục quan tâm đến kỹ thuật và thiết kế để tăng cường tính linh hoạt.
+10.	Đơn giản - nghệ thuật tối đa hóa số lượng công việc không làm - là điều cần thiết.
+11.	Các kiến trúc, yêu cầu và thiết kế tốt nhất được tạo nên từ các nhóm tự tổ chức.
+12.	Trong khoảng thời gian đều đặn, nhóm phản ánh về cách trở nên hiệu quả hơn, sau đó điều chỉnh cho phù hợp.
+4.Chiếc ô Agile
+Chiếc ô Agile nhằm chỉ các phương pháp thực hành Agile phổ biến bao gồm:
+-Scrum
+-Extrem programing
+-Canban
+-Scrumban
+-Spotify
+-LSD
+-Lear software Dev
